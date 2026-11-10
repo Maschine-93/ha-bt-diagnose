@@ -1,0 +1,19 @@
+{
+  "domain": "bt_diagnose",
+  "name": "Better Thermostat Diagnose",
+  "after_dependencies": [
+    "better_thermostat"
+  ],
+  "codeowners": [
+    "@Maschine-93"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "recorder"
+  ],
+  "documentation": "https://github.com/Maschine-93/ha-bt-diagnose",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/Maschine-93/ha-bt-diagnose/issues",
+  "version": "0.9.1"
+}

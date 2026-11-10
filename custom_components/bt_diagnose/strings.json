@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Better Thermostat Diagnose",
+        "description": "Analyses the history of your Better Thermostat rooms and explains why a heating turned off. No settings are changed."
+      }
+    },
+    "abort": {
+      "already_configured": "The diagnosis is already set up."
+    }
+  },
+  "services": {
+    "analyze": {
+      "name": "Analyse",
+      "description": "Analyses all Better Thermostat rooms and returns the findings.",
+      "fields": {
+        "hours": {
+          "name": "Time range (hours)",
+          "description": "How far back the history is examined."
+        }
+      }
+    },
+    "refresh": {
+      "name": "Refresh",
+      "description": "Re-analyses and updates the diagnosis sensor.",
+      "fields": {
+        "hours": {
+          "name": "Time range (hours)",
+          "description": "How far back the history is examined."
+        }
+      }
+    }
+  }
+}

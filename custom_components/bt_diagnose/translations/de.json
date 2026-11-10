@@ -1,0 +1,10 @@
+{
+  "config": {
+    "step": {"user": {"title": "Better Thermostat Diagnose", "description": "Analysiert den Verlauf deiner Better-Thermostat-Raeume und erklaert, warum eine Heizung ausgegangen ist. Es werden keine Einstellungen veraendert."}},
+    "abort": {"already_configured": "Die Diagnose ist bereits eingerichtet."}
+  },
+  "services": {
+    "analyze": {"name": "Analysieren", "description": "Analysiert alle Better-Thermostat-Raeume und gibt die Befunde zurueck.", "fields": {"hours": {"name": "Zeitraum (Stunden)", "description": "Wie weit zurueck der Verlauf betrachtet wird."}}},
+    "refresh": {"name": "Aktualisieren", "description": "Analysiert neu und aktualisiert den Diagnose-Sensor.", "fields": {"hours": {"name": "Zeitraum (Stunden)", "description": "Wie weit zurueck der Verlauf betrachtet wird."}}}
+  }
+}
