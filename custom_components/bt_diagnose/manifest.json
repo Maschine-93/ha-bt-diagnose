@@ -2,7 +2,9 @@
   "domain": "bt_diagnose",
   "name": "Better Thermostat Diagnose",
   "after_dependencies": [
-    "better_thermostat"
+    "automation",
+    "better_thermostat",
+    "trace"
   ],
   "codeowners": [
     "@Maschine-93"
